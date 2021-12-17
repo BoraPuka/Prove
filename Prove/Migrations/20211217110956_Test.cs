@@ -20,7 +20,7 @@ namespace Prove.Migrations
                     table.PrimaryKey("PK_Prova", x => x.Id);
                 });
         }
-
+       
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
